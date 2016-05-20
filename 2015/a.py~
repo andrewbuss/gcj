@@ -1,0 +1,7 @@
+import sys
+
+lines = sys.stdin.read().split('\n')
+T = int(lines.pop(0))
+
+for tn, line in enumerate(lines):
+    
